@@ -1,18 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
-
+import { EmployeeService } from './employee.service';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
+    HttpClientModule, FormsModule
+  ], // configure the service is to let the entire angular application app know about the service
+  providers: [EmployeeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
