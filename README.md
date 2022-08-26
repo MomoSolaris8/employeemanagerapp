@@ -3,16 +3,10 @@
 
 Frontend from employee project
 
-
-
+# Employeemanagerapp
 
 ![Bildschirmfoto 2022-06-18 um 22 33 13](https://user-images.githubusercontent.com/13085793/174456958-e962bf8f-a60a-4a6f-88a0-34a5f7c3a5de.png)
 
-
-
-
-
-# Employeemanagerapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
 
